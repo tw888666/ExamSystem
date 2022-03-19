@@ -1,0 +1,19 @@
+﻿.container1 {
+    display: flex;
+}
+
+.container2 {
+    display: flex;
+}
+
+.container1 > div {
+    width: 25%;
+    margin: 1px;
+    text-align: center;
+    background-color: pink;
+}
+
+.container2 > div {
+    width: 25%;
+    text-align: center;
+}

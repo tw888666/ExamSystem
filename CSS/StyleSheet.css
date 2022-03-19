@@ -1,0 +1,12 @@
+﻿body {
+    background-image: url(/Image/img.jpg);
+}
+
+#page {
+    height: 200px;
+    width: 350px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}

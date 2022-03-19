@@ -1,0 +1,99 @@
+﻿#TitleLabel {
+    text-align: center;
+    font-size: xx-large;
+    background-color: pink;
+}
+
+#examText {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+    .container > div {
+        width: 25%;
+        margin: 1px;
+        text-align: center;
+    }
+
+.mask {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #000;
+    opacity: .3;
+    z-index: 9000;
+}
+
+.copy-limit-dialog {
+    border-radius: 12px;
+    background-color: #fff;
+    display: none;
+    box-sizing: border-box;
+    padding: 36px 50px;
+    z-index: 9000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -200px;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.close {
+    background: orange;
+    color: red;
+    border-radius: 12px;
+    line-height: 20px;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    font-size: 18px;
+    padding: 1px;
+    top: -10px;
+    right: -10px;
+    position: absolute;
+}
+
+    .close::before {
+        cursor: pointer;
+        content: "\2716";
+    }
+@font-face {
+    font-family: "iconfont"; /* Project id 3018670 */
+    src: url("//at.alicdn.com/t/font_3018670_p5iwuphu0ke.woff2?t=1639556071965") format("woff2"), url("//at.alicdn.com/t/font_3018670_p5iwuphu0ke.woff?t=1639556071965") format("woff"), url("//at.alicdn.com/t/font_3018670_p5iwuphu0ke.ttf?t=1639556071965") format("truetype");
+}
+.backtotop {
+    display: block;
+    position: fixed;
+    width: 40px;
+    height: 42px;
+    bottom: 28px;
+    right: 30px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #149987;
+    z-index:9999999;
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fanhuidingbu:before {
+    content: "\e646";
+}
+
