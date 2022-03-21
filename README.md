@@ -1,3 +1,4 @@
+![](https://img.shields.io/badge/language-dotnet-orange.svg)
 # ExamSystem
 
 # APP_Code
